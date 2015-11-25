@@ -17,8 +17,9 @@ deploy:
   timeout: 1800
 ```
 
-`favorite` - the name of the Transmit favorite that is used to sync the local `public` directory to the S3 bucket that hosts the blog.
-`timeout` - optional. This parameter is used to circumvent an issue with long-running AppleScript processes. Since this plugin requires AppleScript we use the timeout parameter to avoid the timeout. The default value is 1800 (seconds). If timeout issues are encountered, a longer value can be specified.
+- `favorite` - the name of the Transmit favorite that is used to sync the local `public` directory to the S3 bucket that hosts the blog.
+
+- `timeout` - optional. This parameter is used to circumvent an issue with long-running AppleScript processes. Since this plugin requires AppleScript we use the timeout parameter to avoid the timeout. The default value is 1800 (seconds). If timeout issues are encountered, a longer value can be specified.
 
 ### Background
 
