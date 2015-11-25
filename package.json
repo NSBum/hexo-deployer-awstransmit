@@ -1,0 +1,16 @@
+{
+    "name" : "hexo-deployer-awstransmit",
+    "version" : "0.0.1",
+    "description": "Amazon S3 deployer plugin for Hexo using Transmit",
+    "main" : "index",
+    "keywords": [
+    "hexo",
+    "s3",
+    "aws",
+    "deployer",
+    "transmit"
+  ],
+    "peerDependencies": {
+    "hexo": "3.x"
+  }
+}
